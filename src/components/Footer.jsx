@@ -23,6 +23,9 @@ display: flex;
 align-items: center; */
 
 `;
+const Link=styled.a`
+
+`;
 const SocialIcon=styled.div`
 width: 40px;
 height: 40px;
@@ -80,13 +83,13 @@ const Footer = () => {
             <Desc>Get In Touch with me via:</Desc>
             <SocialContainer>
                 <SocialIcon color="1166C2">
-                   <Link href=""><LinkedIn /></Link> 
+                   <Link href="https://www.linkedin.com/in/samikshya-kc-15a7401a6/" target="_blank"><LinkedIn /></Link> 
                 </SocialIcon>
                 <SocialIcon color="CF7DA7">
-                   <Link><GitHub /></Link> 
+                   <Link href="https://github.com/samikshyakc1996" target="_blank"><GitHub /></Link> 
                 </SocialIcon>
                 <SocialIcon color="359BF0">
-                   <Link><Twitter /></Link> 
+                   <Link href="https://twitter.com/kc_samikshya" target="_blank"><Twitter /></Link> 
                 </SocialIcon>
             </SocialContainer>
         </Left>
