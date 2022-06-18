@@ -35,6 +35,7 @@ height: 100%;
 background-color: yellow;
 display: flex;
 transform: translateX(${(props)=> props.slideIndex *-100}vw);
+transition: all 2s ease;
 `;
 const Slide=styled.div`
 width: 100vw;
